@@ -1,0 +1,43 @@
+:root {
+    /*root es mi elemento raiz que en este caso es html*/
+    --bg-color: #1A1A1D;
+    /*Todas estas son variables por lo que no son propiedades de CSS*/
+    --primary-color: #6A1E55;
+    --secondary-color: #3B1C32;
+    --hg-color: #A64D79;
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+}
+@media (max-width: 576px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+ }
+ /*
+Agregar margin entre los elementos
+.m-20 {
+    margin: 20px;
+} */
+
+.contact-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.post-card {
+    margin-bottom: 30px;
+}
+.post-title {
+    color: var(--primary-color);
+}
+.post-title:hover {
+    text-decoration: underline;
+}
+.post-image {
+    width: 100%;
+    height: auto;
+}
